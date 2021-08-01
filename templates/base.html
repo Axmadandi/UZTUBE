@@ -1,0 +1,212 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Video Post – Video Sharing HTML Template</title>
+        <meta name="keywords" content="Blog website templates" />
+        <meta name="description" content="Author - Personal Blog Wordpress Template">
+        <meta name="author" content="Rabie Elkheir">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap Core CSS -->
+        <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+        <!-- Owl Carousel Assets -->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"  type="text/css" />
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Raleway:400,500,700|Roboto:300,400,500,700,900|Ubuntu:300,300i,400,400i,500,500i,700" rel="stylesheet">
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="{% static 'css/responsive.css' %}" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+      <!--======= header =======-->
+      <header>
+        <div class="container-full">
+        	<div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-12">
+					<a id="main-category-toggler" class="hidden-md hidden-lg hidden-md"  href="#">
+                    	<i class="fa fa-navicon"></i>
+                    </a>
+					<a id="main-category-toggler-close" class="hidden-md hidden-lg hidden-md" href="#">
+                    	<i class="fa fa-close"></i>
+                    </a>
+                    <div id="logo">
+                        <a href="01-home.html"><img src="/static/img/logo.png" alt=""></a>
+                    </div>
+                </div><!-- // col-md-2 -->
+                <div class="col-lg-3 col-md-3 col-sm-6 hidden-xs hidden-sm">
+                    <div class="search-form">
+                        <form id="search" action="#" method="post">
+                            <input type="text" placeholder="Search here video posts..."/>
+                            <input type="submit" value="Keywords" />
+                        </form>
+                    </div>
+                </div><!-- // col-md-3 -->
+                <div class="col-lg-3 col-md-3 col-sm-5 hidden-xs hidden-sm">
+                    <ul class="top-menu">
+                        <li><a href="01-home.html">home</a></li>
+                        <li><a href="#">trending</a></li>
+                        <li><a href="14-history.html">history</a></li>
+                    </ul>
+                </div><!-- // col-md-4 -->
+                <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs hidden-sm">
+                    <ul class="notifications">
+                        <li class="dropdown">
+                        <a href="#"  data-toggle="dropdown"><i class="fa fa-users"></i>
+                        	<span class="badge badge-color1 header-badge">3</span>
+                        </a>
+                              <ul class="dropdown-menu dropdown-menu-friend-requests ">
+                                <li>
+                                	<div class="friend-requests-info">
+                                        <div class="thumb"><a href="#"><img src="/static/demo_img/z1.jpg" alt=""></a></div>
+                                        <a href="#" class="name">Ahmed Saleh </a>
+                                        <span>Ahmed Saleh : Follow you now</span>
+                                    </div>
+                                </li>
+                                <li>
+                                	<div class="friend-requests-info">
+                                        <div class="thumb"><a href="#"><img src="/static/demo_img/z2.jpg" alt=""></a></div>
+                                        <a href="#" class="name">Ahmed Saleh </a>
+                                        <span>Ahmed Saleh : Follow you now</span>
+                                    </div>
+                                </li>
+                                <li>
+                                	<div class="friend-requests-info">
+                                        <div class="thumb"><a href="#"><img src="/static/demo_img/z3.jpg" alt=""></a></div>
+                                        <a href="#" class="name">Ahmed Saleh </a>
+                                        <span>Ahmed Saleh : Follow you now</span>
+                                    </div>
+                                </li>
+                                <li>
+                                	<div class="friend-requests-info">
+                                        <div class="thumb"><a href="#"><img src="/static/demo_img/z4.jpg" alt=""></a></div>
+                                        <a href="#" class="name">Ahmed Saleh </a>
+                                        <span>Ahmed Saleh : Follow you now</span>
+                                    </div>
+                                </li>
+                              </ul>
+                        </li>
+                        <li class="dropdown">
+                        <a href="#" data-toggle="dropdown"><i class="fa fa-info-circle"></i>
+                        	<span class="badge badge-color2 header-badge">4</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-help-cnter">
+                        	<li>
+                            	<h2 class="title">Help center</h2>
+                                <div class="search-form">
+                                    <form id="search-2" action="#" method="post">
+                                        <input type="text" placeholder="Search here video posts..."/>
+                                        <input type="submit" value="Keywords" />
+                                    </form>
+                                </div>
+                            </li>
+                            <li>
+                            	<h2 class="title">Help on</h2>
+                                <ul class="help-cat-link">
+                                	<li><a href="#">the video</a></li>
+                                	<li><a href="#">Copyrights</a></li>
+                                	<li><a href="#">Members</a></li>
+                                	<li><a href="#">Register</a></li>
+                                	<li><a href="#">Comments</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="dropdown">
+                        <a href="#" data-toggle="dropdown"><i class="fa fa-bell-o"></i>
+                        	<span class="badge badge-color3 header-badge">9</span>
+                        </a>
+						<ul class="dropdown-menu dropdown-notifications-items ">
+                        	<li>
+                            	<div class="notification-info">
+                                    <a href="#"><i class="fa fa-video-camera color-1"></i>
+                                    <strong>Rabie Elkheir</strong> Add a new <span>Video</span>
+                                    <h5 class="time">4 hours ago</h5>
+                                    </a>
+                                </div>
+                            </li>
+                        	<li>
+                            	<div class="notification-info">
+                                    <a href="#"><i class="fa fa-thumbs-up color-2"></i>
+                                    <strong>Rabie Elkheir</strong> Add a new <span>Video</span>
+                                    <h5 class="time">4 hours ago</h5>
+                                    </a>
+                                </div>
+                            </li>
+                        	<li>
+                            	<div class="notification-info">
+                                    <a href="#"><i class="fa fa-comment color-3"></i>
+                                    <strong>Rabie Elkheir</strong> Add a new <span>Video</span>
+                                    <h5 class="time">4 hours ago</h5>
+                                    </a>
+                                </div>
+                            </li>
+                        	<li>
+                            	<div class="notification-info">
+                                    <a href="#"><i class="fa fa-video-camera color-1"></i>
+                                    <strong>Rabie Elkheir</strong> Add a new <span>Video</span>
+                                    <h5 class="time">4 hours ago</h5>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                            	<a href="#" class="all_notifications">All Notifications</a>
+                            </li>
+                        </ul>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-3 hidden-xs hidden-sm">
+					  <div class="dropdown">
+                        <a data-toggle="dropdown" href="#" class="user-area">
+                            <div class="thumb"><img src="/static/demo_img/user-1.png" alt=""></div>
+                            <h2>Rabie Elkheir</h2>
+                            <h3>25 subscribers</h3>
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu account-menu">
+                           <li><a href="#"><i class="fa fa-edit color-1"></i>Edit profile</a></li>
+                           <li><a href="#"><i class="fa fa-video-camera color-2"></i>add video</a></li>
+                           <li><a href="#"><i class="fa fa-star color-3"></i>Favorites</a></li>
+                           <li><a href="#"><i class="fa fa-sign-out color-4"></i>sign out</a></li>
+                        </ul>
+    				</div>
+                </div>
+            </div><!-- // row -->
+        </div><!-- // container-full -->
+      </header><!-- // header -->
+
+{% block content %}
+    
+{% endblock %}
+
+
+<script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+<script src="{% static 'js/jquery.sticky-kit.min.js' %}"></script>
+<script src="{% static 'js/custom.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/imagesloaded.pkgd.min.js' %}"></script>
+<script src="{% static 'js/grid-blog.min.js' %}"></script>
+
+
+    </body>
+</html>
